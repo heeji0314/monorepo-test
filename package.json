@@ -9,7 +9,8 @@
   "packageManager": "yarn@3.3.1",
   "scripts": {
     "backoffice": "yarn workspace backoffice",
-    "upload-site": "yarn workspace upload-site"
+    "upload-site": "yarn workspace upload-site",
+    "backoffice-build": "yarn workspace backoffice build"
   },
   "devDependencies": {
     "eslint": "^8.33.0",
