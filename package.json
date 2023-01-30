@@ -1,0 +1,19 @@
+{
+  "name": "real_final_monorepo",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "packageManager": "yarn@3.3.1",
+  "scripts": {
+    "backoffice": "yarn workspace backoffice",
+    "upload-site": "yarn workspace upload-site"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "prettier": "^2.8.3",
+    "typescript": "^4.9.4"
+  }
+}
