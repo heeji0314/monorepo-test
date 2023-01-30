@@ -2,6 +2,10 @@
   "name": "real_final_monorepo",
   "private": true,
   "workspaces": {
+    "nohoist": [
+      "**/frontend",
+      "**/frontend/**"
+    ],
     "packages": [
       "packages/*"
     ]
